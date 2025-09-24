@@ -1,0 +1,3 @@
+{
+  "healingPotion": { "id":"potion_small", "healAmount":20, "perLevelCountRange":[1,2] }
+}

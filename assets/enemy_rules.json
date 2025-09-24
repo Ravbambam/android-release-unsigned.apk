@@ -1,0 +1,13 @@
+{
+  "enemyTypes":[
+    {"id":"slime","hp":20,"damage":5,"speed":1.2,"spawnWeight":5},
+    {"id":"bat","hp":10,"damage":3,"speed":2.0,"spawnWeight":6},
+    {"id":"goblin","hp":35,"damage":8,"speed":1.5,"spawnWeight":3},
+    {"id":"skeleton","hp":50,"damage":12,"speed":1.0,"spawnWeight":1}
+  ],
+  "spawnRules":{
+    "perLevelCountRange":[5,12],
+    "avoidSpawnRadiusFromPlayer":3,
+    "randomCountPerLevel": true
+  }
+}
